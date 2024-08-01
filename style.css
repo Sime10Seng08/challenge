@@ -1,0 +1,190 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+   background: rgb(22, 18, 128);
+   color: whitesmoke;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 10%;
+background: rgb(0, 44, 84);
+justify-content: space-between;
+align-items: center;
+display: flex;
+}
+
+.logo {
+   font-size: 25px;
+   color: whitesmoke;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+.navbar a {
+   font-size: 18px;
+   color: whitesmoke;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 35px;
+}
+
+.navbar a:hover{
+   color: goldenrod;
+   transition: 1s;
+}
+
+.Home {
+   height: 100vh;
+   display: flex;
+   background: url(/image/backgroundflux.jpg);
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+   padding: 0 10%;
+}
+
+.home-content {
+   max-width: 500px;
+}
+
+.home-content h1 {
+   font-size: 56px;
+   font-weight: 700;
+   color: aliceblue;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-content h3 {
+   font-size: 32px;
+   font-weight: 500;
+   color: goldenrod;
+}
+
+.home-content p {
+   font-size: 20;
+   font-weight: 300;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bas de page */
+footer{
+    background:rgb(130, 130, 238) ;
+    padding: 50px;
+
+ }
+ .container{
+    width:1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+ }
+ .footer-content{
+    width: 40%;
+ }
+ h3{
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+
+ }
+
+ .footer-content{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+ }
+
+ .footer-content ul{
+    text-align: center;
+
+
+ }
+
+ .liste{
+    padding:0;
+ }
+ .liste li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+ }
+
+ .liste li::before{
+    content:'';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100;
+    width: 0;
+    height: 2px;
+    background: #dbd2ca;
+    transition-duration: .5s;
+ }
+
+ .liste li:hover::before{
+    width: 70px;
+ }
+
+ .social-icons{
+    text-align: center;
+    padding: O;
+ }
+ .social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: O;
+ }
+ .social-icons i{
+    color:white;
+    font-size: 25px;
+
+ }
+ a{
+    text-decoration: none;
+ }
+
+ a:hover{
+    color: white;
+ }
+
+ .social-icons i:hover{
+    color: white;
+ }
+
+ .fot{
+    background: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+ }
+ .fot p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+ }
